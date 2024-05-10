@@ -1,0 +1,32 @@
+:root {
+    --bg: rgb(0, 7, 32);
+    --sftBg: rgb(0, 18, 58);
+    --txt: white;
+    --sftTxt: rgb(232, 252, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--txt);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.lay-container {
+    
+    width: 80vw;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
