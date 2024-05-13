@@ -1,6 +1,6 @@
 :root {
     --bg: rgb(0, 7, 32);
-    --sftBg: rgb(0, 18, 58);
+    --bgSft: rgb(0, 18, 58);
     --txt: white;
     --sftTxt: rgb(232, 252, 255);
 }

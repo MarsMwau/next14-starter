@@ -8,3 +8,40 @@
     padding: 10px;
     cursor: pointer;
 }
+
+.menu-btn {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .links {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mobile-menu {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 50%;
+        height: calc(100vh - 100px);
+        background-color: var(--bgSft);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: height 0.5s ease-in-out;
+    }
+}
