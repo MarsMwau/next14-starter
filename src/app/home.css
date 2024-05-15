@@ -1,0 +1,65 @@
+.home-container {
+    display: flex;
+    gap: 6.5rem;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 3rem;
+}
+
+.text-container h2 {
+    font-size: 3.8em;
+}
+
+.text-container p {
+    font-size: 1.2em;
+}
+
+.brands {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    filter: grayscale(1);
+}
+
+.home-btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.home-btns button {
+    padding: 1rem;
+    min-width: 120px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.home-btns button:first-child {
+    background-color: var(--btn);
+    color: var(--txt);
+}
+
+.home-btns button:last-child:hover {
+    background-color: var(--txt);
+    color: var(--bg);
+}
+
+.home-btns button:first-child:hover {
+    background-color: var(--txt);
+    color: var(--bg);
+}
+
+.home-btns button:last-child:hover {
+    background-color: var(--btn);
+    color: var(--txt);
+}
+
+.img-container {
+    flex: 1;
+    position: relative;
+}

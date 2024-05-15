@@ -3,6 +3,7 @@
     --bgSft: rgb(0, 18, 58);
     --txt: white;
     --sftTxt: rgb(232, 252, 255);
+    --btn: rgb(0, 81, 180);
 }
 
 * {
@@ -23,7 +24,7 @@ a {
 }
 
 .lay-container {
-    width: 95vw;
+    width: 85vw;
     margin: auto;
     min-height: 100vh;
     padding: 0 70px;
@@ -35,14 +36,14 @@ a {
 
 @media only screen and (max-width: 1236px) and (min-width: 1024px) {
     .lay-container {
-        width: 90vw;
+        width: 85vw;
         padding: 0 50px;
     }
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
     .lay-container {
-        width: 85vw;
+        width: 83vw;
         padding: 0 30px;
     }
 }
