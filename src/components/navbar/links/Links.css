@@ -1,7 +1,7 @@
 .links {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .logout {
@@ -17,7 +17,7 @@
     display: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 984px) {
 
     .links {
         display: none;
@@ -36,7 +36,7 @@
         right: 0;
         width: 50%;
         height: calc(100vh - 100px);
-        background-color: var(--bgSft);
+        background-color: var(--bg);
         display: flex;
         flex-direction: column;
         align-items: center;
