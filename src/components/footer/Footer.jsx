@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-logo">Logo</div>
       <div className="footer-text">
         &copy;{new Date().getFullYear()} | All rights reserved | Terms Of
-        Service | Privacy
+        Service | Privacy.
       </div>
     </div>
   );
